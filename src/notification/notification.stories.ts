@@ -38,7 +38,8 @@ const InlineTemplate = (args) => ({
 			title: 'Sample notification',
 			message: 'Sample error message',
 			showClose: showClose,
-			lowContrast: lowContrast}">
+			lowContrast: lowContrast,
+			icon: 'add'}">
 		</cds-inline-notification>
 	`
 });
